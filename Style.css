@@ -1,4 +1,23 @@
-div {
+body {
+  background-color: rgba(49, 217, 223, 0.532);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+header {
+  background: #f1fbf3a4;
+}
+
+main {
+  background: #f1fbf3a4;
+}
+
+h2 {
+  font-size: 42px;
+  text-align: center;
+}
+
+article {
   border-width: 2px;
   border-radius: 25%;
 }
