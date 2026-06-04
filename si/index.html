@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zona Gamer</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Zona Gamer</h1>
+      <p>Noticias y curiosidades sobre videojuegos</p>
+    </header>
+
+    <nav>
+      <button id="menuBtn">☰ Menú</button>
+
+      <ul id="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#top">Top Juegos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="inicio">
+        <h2>Bienvenido</h2>
+
+        <p id="fecha"></p>
+
+        <p>
+          Este blog está dedicado a compartir información sobre videojuegos
+          populares y novedades del sector.
+        </p>
+
+        <button id="temaBtn">Cambiar tema</button>
+
+        <p id="visitas"></p>
+      </section>
+
+      <section>
+        <h2>Buscar artículo</h2>
+
+        <input type="text" id="buscador" placeholder="Buscar..." />
+
+        <div id="noticias">
+          <article class="post">
+            <h3>Minecraft sigue siendo un éxito</h3>
+            <p>
+              Minecraft continúa siendo uno de los videojuegos más jugados del
+              mundo gracias a su creatividad.
+            </p>
+          </article>
+
+          <article class="post">
+            <h3>La popularidad de Fortnite</h3>
+            <p>
+              Fortnite mantiene una gran comunidad de jugadores y eventos
+              especiales.
+            </p>
+          </article>
+
+          <article class="post">
+            <h3>Los juegos de mundo abierto</h3>
+            <p>
+              Cada vez más jugadores disfrutan de la libertad que ofrecen los
+              mundos abiertos.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="top">
+        <h2>Top 3 Juegos Populares</h2>
+
+        <ol>
+          <li>Minecraft</li>
+          <li>Fortnite</li>
+          <li>Grand Theft Auto V</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer id="contacto">
+      <p>© 2026 Zona Gamer by Tomás Bernal Montalbán</p>
+    </footer>
+
+    <button id="arriba">↑</button>
+
+    <script src="Script.js"></script>
+  </body>
+</html>

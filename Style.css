@@ -15,6 +15,32 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
+nav {
+}
+
+#menuBtn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+  margin-top: 10px;
+}
+
+#menu a {
+  display: block;
+  padding: 10px;
+  background-color: lightgray;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+}
+
+#menu a:hover {
+  background-color: gray;
+  color: white;
+}
 
 nav {
   display: flex;
@@ -22,11 +48,19 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-self: auto;
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  width: 45ch;
+  height: auto;
 }
 
 main {
   background: #f1fbf3a4;
-  padding-top: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -36,25 +70,6 @@ h2 {
   padding-bottom: 0;
 }
 
-article {
-  border-width: 2px;
-  border-radius: 25%;
-}
-
-a {
-  border-width: 2px;
-  border-radius: 25%;
-}
-
-button {
-  border-width: 2px;
-  border-radius: 25%;
-}
-
-img {
-  border-width: 2px;
-  border-radius: 25%;
-}
 footer {
   position: absolute;
   bottom: 0ch;
