@@ -2,10 +2,26 @@ body {
   background-color: rgba(49, 217, 223, 0.532);
   margin-left: 20%;
   margin-right: 20%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 header {
   background: #f1fbf3a4;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: auto;
 }
 
 main {
@@ -35,4 +51,27 @@ button {
 img {
   border-width: 2px;
   border-radius: 25%;
+}
+footer {
+  position: absolute;
+  bottom: 0ch;
+}
+
+#top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10%;
+}
+
+#banner {
+  position: static;
+  width: 100ch;
+  height: 10ch;
+}
+
+#logotipo {
+  position: static;
+  width: 10ch;
+  height: 10ch;
 }
