@@ -1,95 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgba(49, 217, 223, 0.532);
-  margin-left: 20%;
-  margin-right: 20%;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
 }
 
 header {
-  background: #f1fbf3a4;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
+
 nav {
+  background: #34495e;
+  padding: 10px;
 }
 
 #menuBtn {
-  padding: 10px 20px;
+  padding: 10px;
+  border: none;
   cursor: pointer;
 }
 
 #menu {
+  list-style: none;
   display: none;
   margin-top: 10px;
 }
 
+#menu li {
+  margin: 8px 0;
+}
+
 #menu a {
-  display: block;
-  padding: 10px;
-  background-color: lightgray;
-  text-decoration: none;
-  color: black;
-  border: 1px solid gray;
-}
-
-#menu a:hover {
-  background-color: gray;
   color: white;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: auto;
-  text-align: center;
-  margin: 20px;
-}
-
-img {
-  width: 45ch;
-  height: auto;
+  text-decoration: none;
 }
 
 main {
-  background: #f1fbf3a4;
-  display: flex;
-  flex-wrap: wrap;
+  padding: 20px;
 }
 
-h2 {
-  background: #f1fbf3a4;
-  font-size: 42px;
-  text-align: center;
-  padding-bottom: 0;
+section {
+  margin-bottom: 30px;
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-top: 10px;
 }
 
 footer {
-  position: absolute;
-  bottom: 0ch;
+  text-align: center;
+  background: #2c3e50;
+  color: white;
+  padding: 15px;
 }
 
-#top {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  height: 10%;
+.dark {
+  background: #1e1e1e;
+  color: white;
 }
 
-#banner {
-  position: static;
-  width: 150ch;
-  height: 10ch;
+.dark .post {
+  background: #333;
 }
 
-#logotipo {
-  position: static;
-  width: 10ch;
-  height: 10ch;
+#arriba {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
 }
